@@ -56,6 +56,8 @@ The program includes tests with randomly generated matrices to validate the GPU 
 Execution times for both CPU and GPU implementations are printed in the output to facilitate performance analysis.
 
 ## Sample Output
+Below is a sample output when running the program:
+```bash
 Starting Tiled Matrix Multiplication Program...
 CPU Matrix Multiplication Time: 3.07804 seconds
 GPU Matrix Multiplication Time: 0.000844 seconds
@@ -63,3 +65,5 @@ Verifying Results...
 Result Verification: PASSED (GPU output matches CPU reference)
 Speedup Achieved: 3646.97x faster than CPU
 Program Completed Successfully.
+```
+This output demonstrates that the GPU implementation significantly outperforms the CPU implementation, achieving substantial speedup while maintaining result accuracy.
