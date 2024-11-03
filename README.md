@@ -35,3 +35,22 @@ The memory allocation can be adjusted, but the evaluation code on the host side 
 To compile the program, use the following command:
 ```bash
 make
+```
+
+### Running the Program
+Run the compiled executable as follows:
+```bash
+./hpatloll_lab1
+```
+
+### Clean Up
+To clean up generated files, use:
+```bash
+make clean
+```
+
+## Testing and Verification
+The program includes tests with randomly generated matrices to validate the GPU implementation against a CPU-based reference. The results are compared using a floating-point tolerance threshold to account for precision differences.
+
+## Performance Measurement
+Execution times for both CPU and GPU implementations are printed in the output to facilitate performance analysis.
