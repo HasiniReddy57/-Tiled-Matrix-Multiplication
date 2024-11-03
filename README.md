@@ -1,8 +1,8 @@
-# Tiled-Matrix-Multiplication
+# Tiled Matrix Multiplication - Lab 1
 
 ## Author
-- Name: [Your Full Name]
-- UCInetID: [Your UCInetID]
+- Name: [Hasini Reddy Patlolla]
+- UCInetID: [hpatloll]
 
 ## Overview
 This project implements a CUDA program for tiled matrix multiplication, designed to handle input matrices of arbitrary sizes. The implementation includes CUDA kernels, a host program, and configurable runtime parameters such as grid sizes and thread block sizes. The program tests the correctness of GPU results against a CPU-based matrix multiplication and measures execution times for both implementations.
